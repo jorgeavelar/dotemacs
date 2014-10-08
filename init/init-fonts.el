@@ -1,6 +1,6 @@
 ;;; init-fonts.el
 
-(set-frame-font "Monaco-14" nil t)
+(set-frame-font "Monaco-10" nil t)
 
 (defun sanityinc/font-name-replace-size (font-name new-size)
   (let ((parts (split-string font-name "-")))
